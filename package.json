@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "email dev --dir src/emails && vite",
+    "dev": "vite",
     "build": "tsc -b && vite build && email build --dir src/emails",
     "lint": "eslint .",
     "preview": "vite preview",
